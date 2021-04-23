@@ -73,16 +73,16 @@
               width: 4px;
               height: 4px;
               border-radius: 2px;
-              background: #ddd;
+              background: #DDD;
               position: absolute;
               left: 0;
               top: 50%;
-              transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%)
             }
           }
         }
       }
-
+      
       button {
         position: absolute;
         right: 2rem;
@@ -102,7 +102,7 @@
         }
 
         &:hover {
-          filter: brightness(0.95);
+          filter: brightness(0.95)
         }
       }
     }
@@ -115,8 +115,7 @@
   table {
     width: 100%;
 
-    th,
-    td {
+    th, td {
       padding: 0.75rem 1rem;
       border-bottom: 1px solid var(--gray-100);
     }
@@ -130,8 +129,8 @@
 
     td {
       font-size: 0.875rem;
-
-      img {
+      
+      img { 
         width: 2.5rem;
         height: 2.5rem;
         border-radius: 0.5rem;
@@ -165,7 +164,7 @@
         }
 
         &:hover {
-          filter: brightness(0.95);
+          filter: brightness(0.95)
         }
       }
     }
